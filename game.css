@@ -35,11 +35,13 @@ section{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    transition: opacity 0.5s ease;
 
 }
 
 .intro h1 {
     font-size: 50px;
+  
 
 }
 
@@ -60,7 +62,8 @@ section{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%);
+    transition: opacity 0.5s ease 0.5s;
 }
 
 .winner {
